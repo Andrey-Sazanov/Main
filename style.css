@@ -1,0 +1,88 @@
+:root{
+    --clr-dark-blue:#1d3c45;
+    --clr-dark-orange:#d2601a;
+    --clr-light-brown:#fff1e1;
+    --ff-primary:'Lexend Deca', sans-serif;
+}
+body{
+    font-family: var(--ff-primary);
+    font-weight: 850;
+    font-size: 20px;
+    background-color: var(--clr-light-brown);
+    
+}
+a{
+    text-decoration: none;
+    color: var(--clr-dark-orange);
+}
+h1{
+    color: var(--clr-dark-blue);
+    text-align: center;
+    text-decoration: underline;
+}
+.selector{
+    color: var(--clr-dark-orange);
+    border: 1.5px solid var(--clr-dark-blue);
+    width: fit-content;
+    height: fit-content;
+    transform: translate(850px,200px);
+    border-radius: 15px;
+}
+.movie{
+    border: 1px solid var(--clr-dark-blue);
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    margin: 50px;
+    color: var(--clr-dark-orange);
+}
+.movie p{
+    display: none;
+}
+.movie:hover p{
+    display: block;
+    height: auto;
+    width: fit-content;
+}
+#steven{
+    transform: translate(700px,-650px);
+}
+#rush{
+    transform: translate(1400px,-1300px);
+}
+.book-info{
+    border: 1px solid var(--clr-dark-blue);
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    margin: 50px;
+    color: var(--clr-dark-orange);
+}
+.book-info p{
+    display: none;
+}
+.book-info:hover p{
+    display: block;
+    height: auto;
+    width: fit-content;
+}
+#b2{
+    transform: translate(700px,-650px);
+}
+#mars{
+    transform: translate(1400px,-1300px); 
+}
+.info{
+    width: 400px;
+    text-align: center;
+    transform: translate(700px);
+    color: var(--clr-dark-orange);
+}
+.links{
+    transform:  translate(700px,-1300px);
+    color: var(--clr-dark-orange);
+    
+}
+#link{
+    transform: translate(-700px);
+}
